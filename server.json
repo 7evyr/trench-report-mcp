@@ -1,0 +1,8 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.7evyr/trench-report-mcp",
+  "description": "Grades any Solana wallet's memecoin trading like a report card: real PnL, five habit grades, a roast.",
+  "repository": { "url": "https://github.com/7evyr/trench-report-mcp", "source": "github" },
+  "version": "0.1.0",
+  "websiteUrl": "https://trench-report.trenchreport.workers.dev"
+}
