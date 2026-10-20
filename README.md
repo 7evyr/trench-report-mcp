@@ -16,11 +16,26 @@ Web version and the full report (personal rulebook, regret ledger, PnL by hold t
 
 ## Install
 
-**Claude Code**
+**Claude Code plugin** (MCP server + a skill that teaches Claude how to read the report)
+
+```bash
+claude plugin marketplace add 7evyr/trench-report-mcp
+claude plugin install trench-report@trench-report
+```
+
+**Claude Code, MCP only**
 
 ```bash
 claude mcp add trench-report -- npx -y github:7evyr/trench-report-mcp
 ```
+
+**Docker**
+
+```bash
+docker build -t trench-report-mcp https://github.com/7evyr/trench-report-mcp.git
+```
+
+then point your client at `docker run -i --rm trench-report-mcp`.
 
 **Claude Desktop / Cursor / Windsurf** (`mcpServers` in the client's config)
 

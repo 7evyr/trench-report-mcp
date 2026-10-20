@@ -387,7 +387,7 @@ function roast(s, g, seed) {
 // mcp/src/server.ts
 var SITE = "https://trench-report.trenchreport.workers.dev";
 var RPC = process.env.SOLANA_RPC_URL ?? "https://solana-rpc.publicnode.com";
-var VERSION = "0.1.0";
+var VERSION = "0.2.0";
 var B58 = /^[1-9A-HJ-NP-Za-km-z]{32,44}$/;
 var TOOLS = [{
   name: "grade_wallet",

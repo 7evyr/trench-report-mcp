@@ -1,10 +1,10 @@
 {
   "name": "trench-report-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server that grades any Solana wallet's memecoin trading like a school report card: real PnL, five habit grades, a roast.",
   "type": "module",
   "bin": { "trench-report-mcp": "dist/trench-report-mcp.mjs" },
-  "files": ["dist"],
+  "files": ["dist", ".claude-plugin", ".mcp.json", "skills"],
   "engines": { "node": ">=18" },
   "keywords": ["mcp", "model-context-protocol", "solana", "memecoin", "pnl", "wallet", "trading", "pump.fun", "claude", "cursor"],
   "homepage": "https://trench-report.trenchreport.workers.dev",

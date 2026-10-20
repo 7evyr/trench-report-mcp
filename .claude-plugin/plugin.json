@@ -1,0 +1,10 @@
+{
+  "name": "trench-report",
+  "version": "0.2.0",
+  "description": "Grade any Solana wallet's memecoin trading like a school report card: realized PnL, five habit grades, win rate, hold times and a roast. Read-only, no API key.",
+  "author": { "name": "Trench Report", "url": "https://trench-report.trenchreport.workers.dev" },
+  "homepage": "https://trench-report.trenchreport.workers.dev",
+  "repository": "https://github.com/7evyr/trench-report-mcp",
+  "license": "MIT",
+  "keywords": ["solana", "memecoin", "pnl", "trading", "wallet", "pump.fun", "crypto", "mcp"]
+}

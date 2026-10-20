@@ -1,0 +1,16 @@
+{
+  "name": "trench-report",
+  "owner": {
+    "name": "Trench Report",
+    "url": "https://trench-report.trenchreport.workers.dev"
+  },
+  "plugins": [
+    {
+      "name": "trench-report",
+      "source": "./",
+      "description": "Grade any Solana wallet's memecoin trading: realized PnL, five habit grades, win rate, hold times and a roast.",
+      "version": "0.2.0"
+    }
+  ],
+  "description": "Trench Report: grade any Solana wallet's memecoin trading from inside Claude."
+}
